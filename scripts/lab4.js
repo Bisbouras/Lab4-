@@ -33,7 +33,7 @@ function discountPrices(prices, discount) {
         return false;
     }
 
-    if (typeof discount !== 'number) {
+    if (typeof discount !== 'number') {
         return false;
 }
     
